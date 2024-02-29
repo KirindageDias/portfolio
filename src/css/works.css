@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ui,
+.grapic,
+.web {
+    text-align: center;
+    background-color: #1f242d;
+    padding-top: 40px;
+}
+
+.ui,
+.grapic,
+.web h1 {
+    color: aliceblue;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    background-color: #1f242d;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    width: 500px;
+    height: 350px;
+}
+
+.grid-container img {
+    width: 500px;
+    height: 350px;
+}
